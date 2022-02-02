@@ -39,6 +39,7 @@ main {
     overflow: auto;
     flex-wrap: wrap;
     justify-content:center;
+    height: calc(100vh - 33.56px - 78.38px - 5em);
 }
 
 .preview {
