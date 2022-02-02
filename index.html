@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css"
         integrity="sha512-gRH0EcIcYBFkQTnbpO8k0WlsD20x5VzjhOA1Og8+ZUAhcMUCvd+APD35FJw3GzHAP3e+mP28YcDJxVr745loHw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.0/css/all.min.css"
+        integrity="sha512-AyOHI/tIMgoG+32apAs3OdqFowPSDqiz5vLcD2wdhBJ4J/xF1PI6UITcyhS5HCmsiioapRaONqYBvimxzFfnoA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Zoom</title>
 </head>
 
@@ -17,6 +20,7 @@
         <div class="btn"><i class="fas fa-th"></i>Speaker View</div>
         <div class="btn"><i class="fas fa-expand-arrows-alt"></i></div>
     </div>
+    <!-- Nel main ci sono tutte le antemprime della webcam -->
     <main>
         <div class="preview">
             <span class="name"><i class="fas fa-microphone-slash"></i>Pinco Pallo</span>
@@ -92,8 +96,60 @@
         </div>
 
     </main>
-    <div>
-        <!-- Bottom bar -->
+
+    <div id="bottombar">
+        <div id="left">
+            <div class="btn">
+                <!-- icona -->
+                <div>
+                    <i class="fas fa-microphone"></i>
+                    <div class="name">Mute</div>
+                </div>
+                <i class="fas fa-angle-up"></i>
+                <!-- icona sulla destra del bottone -->
+            </div>
+            <div class="btn">
+                <div>
+                    <i class="fas fa-video"></i>
+                    <div class="name">Stop Video</div>
+                </div>
+                <i class="fas fa-angle-up"></i>
+            </div>
+        </div>
+        <div id="central">
+            <div class="btn">
+                <i class="fas fa-user-plus"></i>
+                <div class="name">Invite</div>
+            </div>
+            <div class="btn">
+                <i class="fas fa-user-friends"></i>
+                <div class="name">Manage Partecipants</div>
+            </div>
+            <div class="btn">
+                <i class="fas fa-chart-bar"></i>
+                <div class="name">Polling</div>
+            </div>
+            <div class="btn">
+                <i class="fas fa-share-square"></i>
+                <div class="name">Share Screen</div>
+            </div>
+            <div class="btn">
+                <i class="fas fa-comment"></i>
+                <div class="name">Chat</div>
+            </div>
+            <div class="btn">
+                <i class="fas fa-record-vinyl"></i>
+                <div class="name">Record</div>
+            </div>
+            <div class="btn">
+                <i class="fas fa-th-large"></i>
+                <div class="name">Breakout Rooms</div>
+            </div>
+            <div class="btn">
+                <i class="fas fa-ellipsis-h"></i>                <div class="name">More</div>
+            </div>
+        </div>
+        <!--  bottone sulla destra  -->
     </div>
 </body>
 

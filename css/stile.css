@@ -48,7 +48,41 @@ main {
     margin: 0 .2em 1em;
 }
 
-.name {
+.preview .name {
     background-color: rgba(0, 0, 0, 0.5);
     padding: .2em;
+}
+
+#bottombar {
+    background-color: gray;
+    width: 100%;
+    display: flex;
+}
+
+#bottombar #left {
+    display: flex;
+}
+
+#central {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+
+#bottombar #left .btn {
+    display: flex;
+    align-items: center;
+}
+
+#bottombar .btn {
+    text-align: center;
+}
+
+#bottombar .btn i {
+    font-size: 2rem;
+}
+
+#bottombar #left i:last-child {
+    font-size: 1rem;
+    margin: 1em;
 }
