@@ -19,11 +19,14 @@ body {
     justify-content: flex-end;
 }
 
-.btn {
-    background-color: gray;
-    padding: .2em;
+#topbar .btn {
+    background-color: #4a4a4aff;
     border-radius: .2em;
-    margin: .5em .2em;
+}
+
+.btn {
+    padding: .2em;
+    margin: .5em .2em;    
 }
 
 i {
@@ -54,9 +57,11 @@ main {
 }
 
 #bottombar {
-    background-color: gray;
+    background-color: #222222ff;
     width: 100%;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 #bottombar #left {
@@ -69,7 +74,7 @@ main {
     width: 80%;
 }
 
-#bottombar #left .btn {
+#bottombar .up {
     display: flex;
     align-items: center;
 }
@@ -82,7 +87,17 @@ main {
     font-size: 2rem;
 }
 
-#bottombar #left i:last-child {
+#bottombar .up > i {
     font-size: 1rem;
-    margin: 1em;
+    margin-left: 1em;
+}
+
+#central .up > div i {
+    color: #4bc800ff;
+}
+
+#bottombar > div:last-child {
+    color: red;
+    background-color: #4a4a4aff;
+    padding: 2em;
 }
