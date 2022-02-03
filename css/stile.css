@@ -15,8 +15,11 @@ body {
 }
 
 #topbar {
+    height: 50px;
     display: flex;
     justify-content: flex-end;
+    align-items:flex-start;
+    margin-top: 5px;
 }
 
 #topbar .btn {
@@ -26,7 +29,7 @@ body {
 
 .btn {
     padding: .2em;
-    margin: .5em .2em;    
+    margin: 0 .2em;    
 }
 
 i {
@@ -39,7 +42,7 @@ main {
     overflow: auto;
     flex-wrap: wrap;
     justify-content:center;
-    height: calc(100vh - 33.56px - 78.38px - 5em);
+    height: calc(100vh - 55px - 80px - 5em);
 }
 
 .preview {
@@ -59,6 +62,7 @@ main {
 
 #bottombar {
     background-color: #222222ff;
+    height: 80px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -98,7 +102,8 @@ main {
 }
 
 #bottombar > div:last-child {
+    height: 80px;
+    padding: calc(40px - .5em) 2em;
     color: red;
     background-color: #4a4a4aff;
-    padding: 2em;
 }
