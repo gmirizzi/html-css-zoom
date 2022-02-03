@@ -19,7 +19,7 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items:flex-start;
-    margin-top: 5px;
+    margin: 5px 2px 0;
 }
 
 #topbar .btn {
@@ -57,7 +57,7 @@ main {
 
 .preview .name {
     background-color: rgba(0, 0, 0, 0.5);
-    padding: .2em;
+    padding: .2em .5em .2em .2em;
 }
 
 #bottombar {
@@ -71,6 +71,7 @@ main {
 
 #bottombar #left {
     display: flex;
+    margin-left: 5px;
 }
 
 #central {
